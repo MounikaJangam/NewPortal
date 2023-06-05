@@ -1,0 +1,18 @@
+declare interface IAnnouncementsWebPartStrings {
+  PropertyPaneDescription: string;
+  BasicGroupName: string;
+  DescriptionFieldLabel: string;
+  AppLocalEnvironmentSharePoint: string;
+  AppLocalEnvironmentTeams: string;
+  AppLocalEnvironmentOffice: string;
+  AppLocalEnvironmentOutlook: string;
+  AppSharePointEnvironment: string;
+  AppTeamsTabEnvironment: string;
+  AppOfficeEnvironment: string;
+  AppOutlookEnvironment: string;
+}
+
+declare module 'AnnouncementsWebPartStrings' {
+  const strings: IAnnouncementsWebPartStrings;
+  export = strings;
+}

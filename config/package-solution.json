@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "portal-web-parts-client-side-solution",
+    "id": "14cb26a0-ffea-47c5-9fe7-c286335c6286",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Portal-WebParts description"
+      },
+      "longDescription": {
+        "default": "Portal-WebParts description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "portal-web-parts Feature",
+        "description": "The feature that activates elements of the portal-web-parts solution.",
+        "id": "fedad2f1-195d-46ac-b77a-201e85cf98ae",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/portal-web-parts.sppkg"
+  }
+}

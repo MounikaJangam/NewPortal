@@ -1,0 +1,81 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "image-slider-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/imageSlider/ImageSliderWebPart.js",
+          "manifest": "./src/webparts/imageSlider/ImageSliderWebPart.manifest.json"
+        }
+      ]
+    },
+    "quick-links-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/quickLinks/QuickLinksWebPart.js",
+          "manifest": "./src/webparts/quickLinks/QuickLinksWebPart.manifest.json"
+        }
+      ]
+    },
+    "quick-feed-back-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/quickFeedBack/QuickFeedBackWebPart.js",
+          "manifest": "./src/webparts/quickFeedBack/QuickFeedBackWebPart.manifest.json"
+        }
+      ]
+    },
+    "announcements-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/announcements/AnnouncementsWebPart.js",
+          "manifest": "./src/webparts/announcements/AnnouncementsWebPart.manifest.json"
+        }
+      ]
+    },
+    "news-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/news/NewsWebPart.js",
+          "manifest": "./src/webparts/news/NewsWebPart.manifest.json"
+        }
+      ]
+    },
+    "birthdays-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/birthdays/BirthdaysWebPart.js",
+          "manifest": "./src/webparts/birthdays/BirthdaysWebPart.manifest.json"
+        }
+      ]
+    },
+    "opinion-poll-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/opinionPoll/OpinionPollWebPart.js",
+          "manifest": "./src/webparts/opinionPoll/OpinionPollWebPart.manifest.json"
+        }
+      ]
+    },
+    "feed-back-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/feedBackForm/FeedBackFormWebPart.js",
+          "manifest": "./src/webparts/feedBackForm/FeedBackFormWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ImageSliderWebPartStrings": "lib/webparts/imageSlider/loc/{locale}.js",
+    "QuickLinksWebPartStrings": "lib/webparts/quickLinks/loc/{locale}.js",
+    "QuickFeedBackWebPartStrings": "lib/webparts/quickFeedBack/loc/{locale}.js",
+    "AnnouncementsWebPartStrings": "lib/webparts/announcements/loc/{locale}.js",
+    "NewsWebPartStrings": "lib/webparts/news/loc/{locale}.js",
+    "BirthdaysWebPartStrings": "lib/webparts/birthdays/loc/{locale}.js",
+    "OpinionPollWebPartStrings": "lib/webparts/opinionPoll/loc/{locale}.js",
+    "FeedBackFormWebPartStrings": "lib/webparts/feedBackForm/loc/{locale}.js"
+  }
+}
